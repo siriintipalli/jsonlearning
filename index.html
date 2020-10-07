@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>
+            JSON learning --converting json string into object--by using JSON.PARSE
+        </title>
+    </head>
+    <script type="text/javascript">
+        let companies = `[
+    {
+        "name":"tcs",
+          "number":10,
+          "ceo":"siriintialli",
+          "workfromhome":null
+
+    },
+    {
+        "name":"cts",
+        "ceo":"pavan",
+        "number":50,
+        "workfromhome":"yes"
+    },
+    {
+        "name":"sapient",
+        "ceo":"kumar",
+        "number":24,
+        "workfromhome":"yes"
+    }
+]`
+
+console.log(JSON.parse(companies)[0].name);
+    </script>
+</html>

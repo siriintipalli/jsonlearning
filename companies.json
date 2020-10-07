@@ -1,0 +1,21 @@
+[
+    {
+        "name":"tcs",
+          "number":10,
+          "ceo":"siriintialli",
+          "workfromhome":null
+
+    },
+    {
+        "name":"cts",
+        "ceo":"pavan",
+        "number":50,
+        "workfromhome":"yes"
+    },
+    {
+        "name":"sapient",
+        "ceo":"kumar",
+        "number":24,
+        "workfromhome":"yes"
+    }
+]
